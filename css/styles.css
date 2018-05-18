@@ -1,43 +1,43 @@
-.main-feature {
+.features-block-2 {
     background: #fff;
     padding: 100px 0;
     font-family: "raleway", sans-serif;
 }
 
-.main-feature .subtitle {
+.features-block-2 .subtitle {
     width: 75%;
     margin: 0 auto;   
 }
 
-.main-feature h2 {
+.features-block-2 h2 {
     font-size: 2.6rem;
     margin-bottom: 0.4em;
 }
 
-.main-feature h3 {
+.features-block-2 h3 {
     font-size: 1.2rem;
     margin-bottom: 0.5em;
     font-weight: 700;
 }
 
-.main-feature p {
+.features-block-2 p {
     font-size: 1rem;
 }
 
-.main-feature a {
+.features-block-2 a {
     color: #ff0000;
     font-weight: 500;
     font-size: 1rem;
 }
 
 @media (max-width: 768px) {
-  .main-feature h2 {
+  .features-block-2 h2 {
     font-size: calc( 1.49rem + (2.4 - 1.49) * ((100vw - 20rem) / (48 - 20)));
   }
-  .main-feature p {
+  .features-block-2 p {
     font-size: calc( 0.965rem + (0.9 - 0.965) * ((100vw - 20rem) / (48 - 20)));
   }
-  .main-feature h3 {
+  .features-block-2 h3 {
     font-size: calc( 0.965rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
   }
 }
