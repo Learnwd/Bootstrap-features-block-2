@@ -4,14 +4,15 @@
     font-family: "raleway", sans-serif;
 }
 
-.features-block-2 .subtitle {
-    width: 75%;
-    margin: 0 auto;   
-}
-
 .features-block-2 h2 {
     font-size: 2.6rem;
     margin-bottom: 0.4em;
+    line-height: 3.2rem;
+}
+
+.features-block-2 .subtitle {
+    width: 75%;
+    margin: 0 auto; 
 }
 
 .features-block-2 h3 {
@@ -33,6 +34,7 @@
 @media (max-width: 768px) {
   .features-block-2 h2 {
     font-size: 1.85rem;
+    line-height: 2.6rem;
   }
   .features-block-2 p {
     font-size: 1rem;
